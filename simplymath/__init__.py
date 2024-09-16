@@ -7,13 +7,16 @@ def round(num):
     return round(num)
 
 def add(num1, num2):
-    return num1 + num2
+    return (num1 + num2)
 
 def subtract(num1, num2):
-    if num1 > num2:
-        return num1 - num2
+    if (num1 > num2):
+        return (num1 - num2)
     else:
-        return num2 - num1
+        return (num2 - num1)
 
 def multiply(num1, num2):
-    return num1 * num2
+    return (num1 * num2)
+
+def divide(num1, num2):
+    return (num1 / num2)
